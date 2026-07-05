@@ -1,0 +1,28 @@
+Number = 10
+Table = {
+    table = {
+        table = {
+            table = {
+                table = {
+                    table = {
+                        table = {
+                            table = {
+                                table = {
+                                    number = 10,
+                                },
+                                number = 10,
+                            },
+                            number = 10,
+                        },
+                        number = 10,
+                    },
+                    number = 10,
+                },
+                number = 10,
+            },
+            number = 10,
+        },
+        number = 10,
+    },
+    number = 10,
+}

@@ -1,0 +1,243 @@
+----------------------------------------
+Perf report for region 'Open'
+Thread Time: 0.033ms  1.003ms  Total: 0.970ms
+Real Time:   0.004ms  1.015ms  Total: 1.011ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Number'
+Thread Time: 1.156ms  1.164ms  Total: 0.008ms
+Real Time:   1.167ms  1.174ms  Total: 0.007ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.180ms  1.184ms  Total: 0.004ms
+Real Time:   1.189ms  1.193ms  Total: 0.004ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.197ms  1.200ms  Total: 0.003ms
+Real Time:   1.206ms  1.209ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.210ms  1.213ms  Total: 0.003ms
+Real Time:   1.219ms  1.222ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.223ms  1.226ms  Total: 0.003ms
+Real Time:   1.232ms  1.235ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.236ms  1.238ms  Total: 0.003ms
+Real Time:   1.245ms  1.248ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.248ms  1.251ms  Total: 0.003ms
+Real Time:   1.258ms  1.260ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.261ms  1.264ms  Total: 0.003ms
+Real Time:   1.271ms  1.273ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.274ms  1.276ms  Total: 0.003ms
+Real Time:   1.283ms  1.286ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.286ms  1.289ms  Total: 0.003ms
+Real Time:   1.295ms  1.298ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Number'
+Thread Time: 1.298ms  1.301ms  Total: 0.003ms
+Real Time:   1.308ms  1.311ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.314ms  1.317ms  Total: 0.003ms
+Real Time:   1.323ms  1.327ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.329ms  1.332ms  Total: 0.003ms
+Real Time:   1.338ms  1.341ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.342ms  1.344ms  Total: 0.003ms
+Real Time:   1.351ms  1.354ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.354ms  1.357ms  Total: 0.003ms
+Real Time:   1.363ms  1.366ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.445ms  1.450ms  Total: 0.005ms
+Real Time:   1.475ms  1.479ms  Total: 0.004ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.464ms  1.467ms  Total: 0.003ms
+Real Time:   1.492ms  1.495ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.477ms  1.479ms  Total: 0.003ms
+Real Time:   1.505ms  1.508ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.489ms  1.492ms  Total: 0.003ms
+Real Time:   1.518ms  1.520ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.number'
+Thread Time: 1.502ms  1.505ms  Total: 0.003ms
+Real Time:   1.530ms  1.533ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Close'
+Thread Time: 1.515ms  1.596ms  Total: 0.081ms
+Real Time:   1.543ms  1.625ms  Total: 0.082ms
+----------------------------------------
+----------------------------------------
+Report for function parse nested lua tables
+- User   CPU time  2.705ms
+- System CPU time  0.000ms
+- Soft page faults 61
+- Hard page faults 0
+----------------------------------------
+----------------------------------------
+Perf report for region 'Open'
+Thread Time: 0.031ms  0.977ms  Total: 0.945ms
+Real Time:   0.003ms  0.979ms  Total: 0.976ms
+----------------------------------------
+Error: Can not read field Table.table.table.table.table.table.table.table.table.0.number
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.094ms  1.109ms  Total: 0.016ms
+Real Time:   1.121ms  1.136ms  Total: 0.015ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.127ms  1.135ms  Total: 0.008ms
+Real Time:   1.153ms  1.161ms  Total: 0.008ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.147ms  1.150ms  Total: 0.003ms
+Real Time:   1.173ms  1.176ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.161ms  1.163ms  Total: 0.003ms
+Real Time:   1.186ms  1.189ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.173ms  1.176ms  Total: 0.003ms
+Real Time:   1.199ms  1.202ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.186ms  1.189ms  Total: 0.003ms
+Real Time:   1.212ms  1.214ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.198ms  1.201ms  Total: 0.003ms
+Real Time:   1.224ms  1.227ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.211ms  1.214ms  Total: 0.003ms
+Real Time:   1.237ms  1.239ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.223ms  1.226ms  Total: 0.003ms
+Real Time:   1.249ms  1.252ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.235ms  1.238ms  Total: 0.003ms
+Real Time:   1.261ms  1.264ms  Total: 0.003ms
+----------------------------------------
+Error: Can not read field Table.table.table.table.table.table.table.table.table.0.number
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.248ms  1.252ms  Total: 0.004ms
+Real Time:   1.274ms  1.278ms  Total: 0.004ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.264ms  1.267ms  Total: 0.003ms
+Real Time:   1.290ms  1.293ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.277ms  1.280ms  Total: 0.003ms
+Real Time:   1.303ms  1.306ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.419ms  1.425ms  Total: 0.006ms
+Real Time:   1.446ms  1.451ms  Total: 0.005ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.440ms  1.443ms  Total: 0.003ms
+Real Time:   1.466ms  1.469ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.453ms  1.456ms  Total: 0.003ms
+Real Time:   1.479ms  1.481ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.465ms  1.468ms  Total: 0.003ms
+Real Time:   1.491ms  1.494ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.478ms  1.480ms  Total: 0.003ms
+Real Time:   1.503ms  1.506ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.490ms  1.493ms  Total: 0.003ms
+Real Time:   1.516ms  1.519ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Get Int: Table.table.table.table.table.table.table.table.table.%d.number'
+Thread Time: 1.503ms  1.505ms  Total: 0.003ms
+Real Time:   1.528ms  1.531ms  Total: 0.003ms
+----------------------------------------
+----------------------------------------
+Perf report for region 'Close'
+Thread Time: 1.515ms  1.596ms  Total: 0.081ms
+Real Time:   1.541ms  1.623ms  Total: 0.081ms
+----------------------------------------
+----------------------------------------
+Report for function parse nested lua tables
+- User   CPU time  2.705ms
+- System CPU time  0.000ms
+- Soft page faults 61
+- Hard page faults 0
+----------------------------------------
+----------------------------------------
+Report for function parse multiple values of the same table
+- User   CPU time  4.482ms
+- System CPU time  0.893ms
+- Soft page faults 123
+- Hard page faults 0
+----------------------------------------
