@@ -274,7 +274,7 @@ table using a path string (conf.h) compared to a pre-resolved registry reference
 must re-parse the full dot-separated path and walk the hash table on every call.
 
 #figure(
-  image("loop.png", width: 100%),
+  image("images/loop.png", width: 100%),
   caption: [Deep-table access time: re-traverse (conf.h) vs cached ref (Lua C API)],
 ) <fig-loop>
 
@@ -285,7 +285,7 @@ hash-lookup overhead of each `table` hop. Lua, using a single registry reference
 per depth, stays near constant ($approx 0.1 "µs"$).
 
 #figure(
-  image("nesting.png", width: 100%),
+  image("images/nesting.png", width: 100%),
   caption: [Access time per nesting depth for conf.h and the Lua C API],
 ) <fig-nesting>
 
@@ -294,7 +294,7 @@ A ratio below 1 means Lua is faster. The gap widens with depth, confirming
 that string-path traversal is the dominant cost for conf.h.
 
 #figure(
-  image("speedup_nesting.png", width: 100%),
+  image("images/speedup_nesting.png", width: 100%),
   caption: [Nesting speedup ratio of conf.h over the Lua C API],
 ) <fig-speedup-nesting>
 
@@ -304,7 +304,7 @@ due to scheduler noise but stays consistently below 1, confirming that Lua's
 cached-reference approach dominates across all runs.
 
 #figure(
-  image("speedup_loop.png", width: 100%),
+  image("images/speedup_loop.png", width: 100%),
   caption: [Loop speedup ratio per trial],
 ) <fig-speedup-loop>
 
