@@ -1,0 +1,44 @@
+name: Build Typst PDFs
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  build-pdfs:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install latest Typst
+        uses: typst-community/setup-typst@v5
+        with:
+          typst-version: latest
+
+      - name: Build all PDFs
+        run: typst -c paper.typ
+
+      - name: Upload PDFs as artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: paper.pdf
+          path: "paper.pdf"
+
+      - name: Publish PDFs to release
+        if: github.ref == 'refs/heads/main'
+        continue-on-error: true
+        uses: ncipollo/release-action@v1
+        with:
+          tag: paper.pdf
+          name: paper.pdf
+          allowUpdates: true
+          removeArtifacts: true
+          replacesArtifacts: true
+          artifacts: "paper.pdf"
