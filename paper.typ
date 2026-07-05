@@ -1,4 +1,4 @@
-#import "@local/ieee-paper:1.0.0": ieee;
+#import "templates/ieee-paper/lib.typ": ieee;
 
 #show: ieee.with(
   title: [Conf.h: The JQuery of Lua],
