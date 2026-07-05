@@ -23,7 +23,7 @@ jobs:
           typst-version: latest
 
       - name: Build all PDFs
-        run: typst -c paper.typ
+        run: typst c paper.typ
 
       - name: Upload PDFs as artifact
         uses: actions/upload-artifact@v7
