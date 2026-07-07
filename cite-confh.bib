@@ -1,0 +1,17 @@
+@misc{coto2026confh,
+  author       = {Hugo Coto},
+  title        = {Conf.h: The JQuery of Lua},
+  year         = {2026},
+  howpublished = {GitHub release},
+  url          = {https://github.com/hugoocoto/conf.h-paper/releases/tag/paper.pdf},
+  abstract     = {This paper presents conf.h, a single-file public-domain C
+                  library for reading Lua configuration files. The library
+                  wraps the Lua C API behind a concise open/close/get interface
+                  using dot-separated path strings and printf-style format
+                  specifiers, eliminating the boilerplate of stack-based table
+                  traversal. Benchmark results show that the string-path API is
+                  2--17 times slower than hand-written cached-registry code,
+                  but the absolute overhead for read-once-at-startup workloads
+                  is negligible (~140 us for 200 keys).},
+  note         = {Library version 1.0, released under public domain and MIT license}
+}
